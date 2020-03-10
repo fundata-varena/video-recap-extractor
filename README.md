@@ -1,5 +1,5 @@
 # video-recap-extractor
-抓取视频回放的播放链接
+抓取视频回放的播放链接(Chrome 插件)
 
 ## 支持的网站
 - 暂只支持虎牙
