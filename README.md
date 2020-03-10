@@ -5,4 +5,4 @@
 - 暂只支持虎牙
 
 ## 使用
-[效果图](./asserts/extractor-example.png)
+![效果图](./asserts/extractor-example.png)
