@@ -1,0 +1,21 @@
+ {
+   "name": "VideoRecapExtractor",
+   "version": "1.0",
+   "description": "Extract video recap link from huya",
+   "permissions": ["activeTab", "declarativeContent", "storage"],
+   "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+   },
+   "default_icon": {
+     "128": "images/icon.jpeg"
+   },
+   "content_scripts": [
+     {
+       "matches": ["https://v.huya.com/play/*"],
+       "css": ["libs/bootstrap.min.css", "src/extractor.css"],
+       "js": ["libs/jquery-3.4.1.slim.min.js", "libs/popper.min.js", "libs/bootstrap.min.js", "src/extractor.js"]
+     }
+   ],
+   "manifest_version": 2
+ }

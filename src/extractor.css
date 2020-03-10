@@ -1,0 +1,11 @@
+#toggle-extractor {
+    position: fixed;
+    top: 50px;
+    right: 10%;
+    z-index: 10000;
+}
+
+#toggle-extractor .link {
+    height: 0;
+    border: 0;
+}
