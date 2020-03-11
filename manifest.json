@@ -14,7 +14,7 @@
    },
    "content_scripts": [
      {
-       "matches": ["https://v.huya.com/play/*"],
+       "matches": ["https://v.huya.com/play/*", "https://www.huya.com/v/*", "https://v-material.huya.com/play/*"],
        "css": ["libs/bootstrap.min.css", "src/extractor.css"],
        "js": ["libs/jquery-3.4.1.slim.min.js", "libs/popper.min.js", "libs/bootstrap.min.js", "src/extractor.js"]
      }
